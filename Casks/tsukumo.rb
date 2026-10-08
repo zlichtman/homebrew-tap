@@ -4,7 +4,7 @@ cask "tsukumo" do
 
   url "https://zlichtman.com/downloads/Tsukumo-#{version}.dmg"
   name "Tsukumo"
-  desc "Workspace for every coding agent, with KemoSabe"
+  desc "Side dock for your AI bots, guarded by an on-device assistant"
   homepage "https://zlichtman.com/open-source#tsukumo"
 
   livecheck do
@@ -13,8 +13,6 @@ cask "tsukumo" do
       json["version"]
     end
   end
-
-  disable! date: "2026-10-01", because: :discontinued
 
   auto_updates true
   depends_on macos: :tahoe
