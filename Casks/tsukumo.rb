@@ -1,6 +1,6 @@
 cask "tsukumo" do
-  version "2.05"
-  sha256 "ad0e591e762f8abb980a6f628ba006864786c75590684f2f3b39cc45263d50b7"
+  version "2.06"
+  sha256 "27c05d1de8597e401068e05b466e9a7dbf9f977bc1547c1667262871f82a780a"
 
   url "https://zlichtman.com/downloads/Tsukumo-#{version}.dmg"
   name "Tsukumo"
