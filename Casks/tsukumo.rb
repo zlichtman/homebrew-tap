@@ -1,6 +1,6 @@
 cask "tsukumo" do
-  version "1.80"
-  sha256 "3a8d1cb319f603cc4de52f24cb176c234ed89177e96605a4f60c071df8226cff"
+  version "2.05"
+  sha256 "ad0e591e762f8abb980a6f628ba006864786c75590684f2f3b39cc45263d50b7"
 
   url "https://zlichtman.com/downloads/Tsukumo-#{version}.dmg"
   name "Tsukumo"
@@ -21,5 +21,5 @@ cask "tsukumo" do
 
   app "Tsukumo.app"
 
-  uninstall quit: "com.zlichtman.kemosabe.mac"
+  uninstall quit: "com.zlichtman.tsukumo.mac"
 end
