@@ -1,6 +1,6 @@
 cask "macspaces" do
-  version "2.91"
-  sha256 "c5ca71a2dadd49bdb76f0cb89ea165cd82a45fca3bf39c12dd71349381568ce8"
+  version "2.92"
+  sha256 "8a56b444f8646fa0c2a390d4666b548603beb7cd1dcf315fa877ef2bae207795"
 
   url "https://github.com/zlichtman/MacSpaces/releases/download/v#{version}/MacSpaces.dmg"
   name "MacSpaces"
@@ -8,7 +8,7 @@ cask "macspaces" do
   homepage "https://github.com/zlichtman/MacSpaces"
 
   auto_updates true
-  depends_on macos: :sequoia
+  depends_on macos: ">= :ventura"
 
   app "MacSpaces.app"
 
