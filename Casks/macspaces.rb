@@ -8,7 +8,7 @@ cask "macspaces" do
   homepage "https://github.com/zlichtman/MacSpaces"
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "MacSpaces.app"
 
