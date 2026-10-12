@@ -1,6 +1,6 @@
 cask "folio" do
-  version "1.7"
-  sha256 "322c0529c807948756c74e0818b2c56400fa800b19a5a31f31910927ce65fa16"
+  version "1.8"
+  sha256 "df146208957ef381f126304a4ba9b92d3a40b9db43b191e83cebb3b9614bf718"
 
   url "https://github.com/zlichtman/Folio/releases/download/v#{version}/Folio.dmg",
       verified: "github.com/zlichtman/Folio/"
@@ -15,7 +15,7 @@ cask "folio" do
 
   uninstall quit: "org.lumashelf.app"
 
-  # Never zap ~/Library/Application Support/LumaShelf: it holds the user's library.
+  # Never zap ~/Library/Application Support/Folio (LumaShelf before 1.8): it holds the user's library.
   zap trash: [
     "~/Library/Caches/org.lumashelf.app",
     "~/Library/HTTPStorages/org.lumashelf.app",
