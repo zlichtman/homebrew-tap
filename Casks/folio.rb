@@ -1,6 +1,6 @@
 cask "folio" do
-  version "1.8"
-  sha256 "df146208957ef381f126304a4ba9b92d3a40b9db43b191e83cebb3b9614bf718"
+  version "1.9"
+  sha256 "e26a7600d794d58c6a8f9f8152ac6777d94b07eb743e565770b87a3e8fd5479b"
 
   url "https://github.com/zlichtman/Folio/releases/download/v#{version}/Folio.dmg",
       verified: "github.com/zlichtman/Folio/"
