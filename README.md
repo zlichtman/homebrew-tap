@@ -2,7 +2,10 @@
 
 ```sh
 brew install --cask zlichtman/tap/macspaces
+brew install --cask zlichtman/tap/folio
 ```
+
+**Folio** 1.0.0 is a visual library for images with local search and automatic tags, for macOS 14 or later on Apple silicon or Intel. It updates itself, signed and notarized like MacSpaces. [Source and releases](https://github.com/zlichtman/Folio).
 
 Installs MacSpaces 2.91 on macOS 15 or later, Apple silicon or Intel. MacSpaces updates itself, so `brew upgrade` leaves it alone unless you pass `--greedy`. The cask pins the signed, notarized installer with a SHA-256 checksum.
 
