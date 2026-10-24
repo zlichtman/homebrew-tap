@@ -1,6 +1,6 @@
 cask "macspaces" do
-  version "3.17"
-  sha256 "f65f3dc32ddd3c604d51358a7f47c5537b00d9dc8787096cceb2f4ee0178c564"
+  version "3.18"
+  sha256 "621dcb9ce9c0a69b2ae92c6887cb1b0bf8e23c99862cf992c6a17609ccba5314"
 
   url "https://github.com/zlichtman/MacSpaces/releases/download/v#{version}/MacSpaces.dmg"
   name "MacSpaces"
