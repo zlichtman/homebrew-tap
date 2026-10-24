@@ -1,6 +1,6 @@
 cask "tape" do
-  version "1.30"
-  sha256 "2e9e43282f19b4e78d8806c7076d3b8fd9102d6f86d4524e388f3444730a0c31"
+  version "1.31"
+  sha256 "3a81cfd8d64d7e02e4f90bdb4858525e4571b6d4c9826acb1808749d6be77569"
 
   url "https://github.com/zlichtman/Tape/releases/download/v#{version}/Tape.dmg"
   name "Tape"
